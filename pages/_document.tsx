@@ -1,4 +1,3 @@
-// pages/_document.js
 import { Html, Head, Main, NextScript } from 'next/document';
 
 export default function Document() {
@@ -11,8 +10,7 @@ export default function Document() {
                     rel="stylesheet"
                 />
                 {/* Favicon link */}
-                <link rel="icon" href="/public/favicon.ico" />
-                {/* You can add any additional metadata or links here */}
+                <link rel="icon" href="/favicon.ico" />
             </Head>
             <body>
                 <Main />
