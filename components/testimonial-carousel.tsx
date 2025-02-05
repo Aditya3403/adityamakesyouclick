@@ -32,10 +32,10 @@ export function TestimonialCarousel({ testimonials }: TestimonialCarouselProps) 
   return (
     <div className="relative w-full h-full flex">
       <div className="bg-[#141414] rounded-xl w-full h-full flex flex-col sm:flex-row">
-        <CardContent className="flex flex-col h-full w-full sm:w-auto">
+        <CardContent className="flex flex-col justify-center h-full w-full sm:w-auto">
           {/* Review Text */}
           <blockquote className="text-sm xl:text-sm lg:text-sm lg:mb-1 md:text-sm sm:text-sm italic text-zinc-300 mb-4 sm:mb-6">
-            "{testimonials[currentIndex].feedback}"
+            &quot;{testimonials[currentIndex].feedback}&quot;
           </blockquote>
 
           {/* Slider Buttons */}

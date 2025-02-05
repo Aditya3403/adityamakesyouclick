@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from "next/image";
 
 export interface AvatarProps {
   src?: string;
@@ -22,10 +23,13 @@ export const Avatar: React.FC<AvatarProps> = ({ src, alt, className, children })
 );
 
 export const AvatarImage: React.FC<{ src: string; alt: string }> = ({ src, alt }) => (
-  <img
+  <Image
     src={src}
     alt={alt}
-    className="w-full h-full rounded-full object-cover"
+    layout="intrinsic" // Optional: controls how the image is resized (intrinsic for automatic sizing)
+    width={70} // You can adjust the width to match the div
+    height={70} // You can adjust the height to match the div
+    className="rounded-full object-cover"
   />
 );
 

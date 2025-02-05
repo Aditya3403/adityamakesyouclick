@@ -28,7 +28,7 @@ const testimonials = [
   },
   {
     id: 3,
-    feedback: "Great thumbnail editor. If you're looking for a designer who combines creativity with a strong work ethic, Aditya is the perfect choice. I highly recommend working with him!",
+    feedback: "Great thumbnail designer. If you're looking for a thumbnail designer who combines creativity with a strong work ethic, Aditya is the perfect choice. I highly recommend working with him!",
     client: "Sahil Bavdane",
     role: "1.7K+ Subscribers on YouTube | 40K+ Followers on IG",
     avatar: "https://res.cloudinary.com/memoriesshare/image/upload/v1738736165/channels4_profile_5_jl3cxm.jpg"
