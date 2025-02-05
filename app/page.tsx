@@ -114,7 +114,7 @@ export default function Portfolio() {
             <Card className="bg-[#141414]">
               <CardContent className="md:p-6">
                 <h3 className="text-lg xl:text-xl md:text-xl sm:text-lg font-semibold mb-2">Creative Excellence</h3>
-                <p className="text-zinc-400 text-sm xl:text-lg lg:text-sm md:text-lg sm:text-sm">Having designed 1000+ thumbnails, I bring a wealth of creative experience, ensuring each project stands out and aligns with your brand's vision.</p>
+                <p className="text-zinc-400 text-sm xl:text-lg lg:text-sm md:text-lg sm:text-sm">Having designed 1000+ thumbnails, I bring a wealth of creative experience, ensuring each project stands out and aligns with your brand&apos;s vision.</p>
               </CardContent>
             </Card>
             <Card className="bg-[#141414]">
