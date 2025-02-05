@@ -45,7 +45,7 @@ export default function Portfolio() {
           {/* Profile Header and Stats - Full Width on Small Screens */}
           <div className="lg:col-span-2 space-y-4 md:space-y-7">
             <ProfileHeader
-              name="I'm Aditya,"
+              name="I&apos;m Aditya,"
               title="A Freelance Thumbnail Designer"
               description="I specialize in crafting visually captivating thumbnails that drive engagement!"
               avatarUrl="https://res.cloudinary.com/memoriesshare/image/upload/v1737641935/DP_yl2z6b.png"
@@ -70,7 +70,7 @@ export default function Portfolio() {
 
           {/* About Section - Full Width on Small Screens */}
           <div className="bg-[#141414] rounded-xl p-4 md:p-4 space-y-2 border border-transparent hover:border-white hover:border-opacity-40 transition-all duration-300 h-full">
-            <h5 className="text-lg md:text-lg font-semibold">I'm a CS Engineer with a Passion of Designing YouTube & Instagram Thumbnail's</h5>
+            <h5 className="text-lg md:text-lg font-semibold">I&apos;m a CS Engineer with a Passion for Designing YouTube & Instagram Thumbnails</h5>
             <p className="text-zinc-400 text-sm lg:text-sm md:text-sm sm:text-sm">
               I help businesses and content creators adapt to the evolving landscape of AI-driven content strategies. With a deep passion for visual storytelling and a proven track record of delivering high-performing designs, I empower brands to thrive in the digital space.
             </p>
@@ -131,7 +131,7 @@ export default function Portfolio() {
           {/* Left Section */}
           <div className="flex-1 space-y-2 w-full">
             <div className="flex flex-wrap items-center justify-start gap-2">
-              <h2 className="text-xl md:text-2xl font-bold">Let's work together</h2>
+              <h2 className="text-xl md:text-2xl font-bold">Let&apos;s work together</h2>
               <Button
                 onClick={() => setShowCalendly(true)}
                 variant="tertiary" 
