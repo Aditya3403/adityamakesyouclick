@@ -11,7 +11,7 @@ export default function Document() {
                     rel="stylesheet"
                 />
                 {/* Favicon link */}
-                <link rel="icon" href="/public/favicon.ico" />
+                <link rel="icon" href="/public/favicon.png" />
                 {/* You can add any additional metadata or links here */}
             </Head>
             <body>
