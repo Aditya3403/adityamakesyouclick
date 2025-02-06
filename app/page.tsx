@@ -69,7 +69,7 @@ export default function Portfolio() {
           </div>
 
           {/* About Section - Full Width on Small Screens */}
-          <div className="flex bg-[#141414] rounded-xl p-4 md:p-4 space-y-2 border border-transparent hover:border-white hover:border-opacity-40 transition-all duration-300 h-full">
+          <div className="bg-[#141414] rounded-xl p-4 md:p-4 space-y-2 border border-transparent hover:border-white hover:border-opacity-40 transition-all duration-300 h-full">
             <h5 className="text-lg md:text-lg font-semibold">I&apos;m a CS Engineer with a Passion for Designing YouTube & Instagram Thumbnails</h5>
             <p className="text-zinc-400 text-sm lg:text-sm md:text-sm sm:text-sm">
               I help businesses and content creators adapt to the evolving landscape of AI-driven content strategies. With a deep passion for visual storytelling and a proven track record of delivering high-performing designs, I empower brands to thrive in the digital space.
@@ -78,7 +78,7 @@ export default function Portfolio() {
         </div>
 
         {/* Projects and Testimonials - More Responsive */}
-        <div className="grid flex-wrap grid-cols-1 lg:grid-cols-3 gap-4 md:gap-4 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-4 items-start">
           {/* Project Cards - Full Width on Small Screens */}
           <div className="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 md:gap-4 gap-4">
             <ProjectCard
@@ -104,7 +104,7 @@ export default function Portfolio() {
         {/* Why Work With Me Section - Responsive */}
         <div className="border-[#424242] border-2 border-dashed px-4 md:px-8 py-6 md:py-8 rounded-xl space-y-3 hover:border-white hover:border-opacity-40 transition-all duration-300 w-full">
           <h2 className="text-2xl md:text-3xl font-semibold text-center">Why Work With Me</h2>
-          <div className="grid flex-wrap xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-4 md:gap-4 text-center">
+          <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-4 md:gap-4 text-center">
             <Card className="bg-[#141414]">
               <CardContent className="md:p-6">
                 <h3 className="text-lg xl:text-xl lg:text-xl md:text-xl sm:text-lg font-semibold mb-2">Proven Results</h3>
@@ -127,7 +127,7 @@ export default function Portfolio() {
         </div>
 
         {/* Contact Section - Responsive Flex and Grid */}
-       <div className="flex flex-wrap flex-col lg:flex-row items-start bg-[#141414] p-4 md:p-5 rounded-xl hover:border-white border border-transparent hover:border-opacity-40 transition-all duration-300 w-full gap-4 md:gap-4">
+       <div className="flex flex-col lg:flex-row items-start bg-[#141414] p-4 md:p-5 rounded-xl hover:border-white border border-transparent hover:border-opacity-40 transition-all duration-300 w-full gap-4 md:gap-4">
           {/* Left Section */}
           <div className="flex-1 space-y-2 w-full">
             <div className="flex flex-wrap items-center justify-start gap-2">
