@@ -37,12 +37,12 @@ export default function InstagramThumbnailsPage() {
     ];
 
     return (
-        <div className="min-h-screen bg-black text-white p-6 sm:p-8 md:p-10">
+        <div className="flex-wrap min-h-screen bg-black text-white p-6 sm:p-8 md:p-10">
             
             {/* Responsive Back Button */}
             <button
                 onClick={() => router.push('/')} 
-                className="absolute top-18 left-10 p-1 sm:p-2 md:p-3 bg-[#212121] rounded-full"
+                className="absolute top-19 left-10 lg:top-18 lg:left-10 p-1 sm:p-2 md:p-3 bg-[#212121] rounded-full"
             >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +57,7 @@ export default function InstagramThumbnailsPage() {
             
             {/* Page Heading */}
             <div className="text-center mb-12">
-                <h1 className="xl:text-4xl md:text-3xl lg:text-4xl sm:text-xl font-bold mb-2">
+                <h1 className="xl:text-4xl md:text-3xl lg:text-4xl sm:text-xl text-xl font-bold mb-2">
                     Instagram Thumbnails
                 </h1>
                 <p className="xl:text-xl lg:text-xl md:text-lg text-xs sm:text-base md:text-lg text-gray-400">
@@ -67,18 +67,18 @@ export default function InstagramThumbnailsPage() {
 
             {/* Sections with Subheadings */}
             {sections.map((section, index) => (
-                <div key={index} className="mb-12 bg-[#0F0F0F] p-4 sm:p-6 md:p-8 lg:p-10 rounded-2xl">
+                <div key={index} className="mb-10 bg-[#0F0F0F] p-4 sm:p-6 md:p-8 lg:p-10 rounded-2xl">
                     {/* Subheading */}
-                    <h2 className="xl:text-4xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold mb-6 text-center">
+                    <h2 className="text-xl md:text-3xl lg:text-3xl font-semibold mb-6 text-center">
                         {section.title}
                     </h2>
 
                     {/* Thumbnail Box Layout */}
-                    <div className="grid grid-cols-2 xl:grid-cols-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6 p-4">
+                    <div className="flex-wrap grid grid-cols-2 xl:grid-cols-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 p-2">
                         {section.images.map((image, idx) => (
                             <div
                                 key={idx}
-                                className="w-full flex items-center justify-center bg-[#212121] border border-transparent rounded-lg overflow-hidden"
+                                className="w-full flex flex-wrap items-center justify-center bg-[#212121] border border-transparent rounded-lg overflow-hidden"
                             >
                                 <Image 
                                     src={image}

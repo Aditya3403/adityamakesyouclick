@@ -13,7 +13,7 @@ export const Avatar: React.FC<AvatarProps> = ({ src, alt, className, children })
     className={`
       w-[70px] h-[70px] min-w-[70px] min-h-[70px] 
       sm:w-[90px] sm:h-[90px] sm:min-w-[90px] sm:min-h-[90px]
-      rounded-full overflow-hidden flex items-center justify-center 
+      rounded-full overflow-hidden flex flex-wrap items-center justify-center 
       ${className || ''}
     `}
   >
@@ -37,7 +37,7 @@ export const AvatarFallback: React.FC<{ fallbackText?: string; children?: React.
   <div
     className="
       w-full h-full rounded-full 
-      flex items-center justify-center 
+      flex flex-wrap items-center justify-center 
       bg-gray-300 text-white 
       text-base sm:text-2xl 
       font-bold

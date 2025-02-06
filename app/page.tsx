@@ -16,21 +16,21 @@ const testimonials = [
     id: 1,
     feedback: "My thumbnail editor, Aditya, consistently delivers high-quality, visually engaging work for our YouTube channel and Instagram page. His creativity, attention to detail, and ability to meet deadlines have significantly enhanced our brand's aesthetic appeal. Highly recommended!",
     client: "Avinash Kumar",
-    role: "2M+ Subscribers on YouTube | 470K+ Followers on IG",
+    role: "2M+ Subscribers on YouTube",
     avatar: "https://res.cloudinary.com/memoriesshare/image/upload/v1738304046/channels4_profile_3_nsxtqd.jpg"
   },
   {
     id: 2,
     feedback: "Aditya is a super professional & creative designer. He has created thumbnails for my YouTube channel @himsingh and delivers exceptional work. He treats his work very seriously and even go extra mile to ask and do changes as per needed. He always asks and make sure he delivers what you need and ready to make changes to suit your needs. I highly recommend working with Aditya for creativity, work ethic and exceptional service.",
     client: "Him Singh",
-    role: "Freelancing Coach | 50K+ Subscribers on YouTube",
+    role: "50K+ Subscribers on YouTube",
     avatar: "https://res.cloudinary.com/memoriesshare/image/upload/v1738592063/channels4_profile_4_qvrqym.jpg"
   },
   {
     id: 3,
     feedback: "Great thumbnail designer. If you're looking for a thumbnail designer who combines creativity with a strong work ethic, Aditya is the perfect choice. I highly recommend working with him!",
     client: "Sahil Bavdane",
-    role: "1.7K+ Subscribers on YouTube | 40K+ Followers on IG",
+    role: "40K+ Followers on IG",
     avatar: "https://res.cloudinary.com/memoriesshare/image/upload/v1738736165/channels4_profile_5_jl3cxm.jpg"
   }
 ]
@@ -41,7 +41,7 @@ export default function Portfolio() {
     <div className="min-h-screen bg-black text-white p-4 sm:p-6 md:p-8">
       <div className="max-w-7xl mx-auto space-y-6 md:space-y-7">
         {/* Top Section - More Responsive Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-6 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-4 items-start">
           {/* Profile Header and Stats - Full Width on Small Screens */}
           <div className="lg:col-span-2 space-y-4 md:space-y-7">
             <ProfileHeader
@@ -51,7 +51,7 @@ export default function Portfolio() {
               avatarUrl="https://res.cloudinary.com/memoriesshare/image/upload/v1737641935/DP_yl2z6b.png"
             />
 
-          <div className="grid xl:grid-cols-3 lg:grid-cols-3 sm:grid-cols-3 md:grid-cols-3 gap-3 sm:gap-4 md:gap-6 group">
+          <div className="flex-wrap grid xl:grid-cols-3 lg:grid-cols-3 sm:grid-cols-3 md:grid-cols-3 gap-4 sm:gap-4 md:gap-4 group">
             <div className="bg-[#141414] rounded-xl p-3 sm:p-4 md:p-6 text-center border border-transparent hover:border-white hover:border-opacity-40 transition-all duration-300">
               <h3 className="text-2xl sm:text-3xl lg:text-4xl xl:text-4xl font-bold text-white-600">2M+</h3>
               <p className="text-zinc-400 mt-1 sm:mt-2 text-base sm:text-lg lg:text-xl">Views Generated</p>
@@ -69,7 +69,7 @@ export default function Portfolio() {
           </div>
 
           {/* About Section - Full Width on Small Screens */}
-          <div className="bg-[#141414] rounded-xl p-4 md:p-4 space-y-2 border border-transparent hover:border-white hover:border-opacity-40 transition-all duration-300 h-full">
+          <div className="flex flex-wrap bg-[#141414] rounded-xl p-4 md:p-4 space-y-2 border border-transparent hover:border-white hover:border-opacity-40 transition-all duration-300 h-full">
             <h5 className="text-lg md:text-lg font-semibold">I&apos;m a CS Engineer with a Passion for Designing YouTube & Instagram Thumbnails</h5>
             <p className="text-zinc-400 text-sm lg:text-sm md:text-sm sm:text-sm">
               I help businesses and content creators adapt to the evolving landscape of AI-driven content strategies. With a deep passion for visual storytelling and a proven track record of delivering high-performing designs, I empower brands to thrive in the digital space.
@@ -78,9 +78,9 @@ export default function Portfolio() {
         </div>
 
         {/* Projects and Testimonials - More Responsive */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-6 items-start">
+        <div className="grid flex-wrap grid-cols-1 lg:grid-cols-3 gap-4 md:gap-4 items-start">
           {/* Project Cards - Full Width on Small Screens */}
-          <div className="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 md:gap-6">
+          <div className="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 md:gap-4 gap-4">
             <ProjectCard
               title="YouTube Thumbnails"
               description="Unlock the power of scroll-stopping YouTube thumbnails that increase views and engagement."
@@ -104,7 +104,7 @@ export default function Portfolio() {
         {/* Why Work With Me Section - Responsive */}
         <div className="border-[#424242] border-2 border-dashed px-4 md:px-8 py-6 md:py-8 rounded-xl space-y-3 hover:border-white hover:border-opacity-40 transition-all duration-300 w-full">
           <h2 className="text-2xl md:text-3xl font-semibold text-center">Why Work With Me</h2>
-          <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-4 md:gap-6 text-center">
+          <div className="grid flex-wrap xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-4 md:gap-4 text-center">
             <Card className="bg-[#141414]">
               <CardContent className="md:p-6">
                 <h3 className="text-lg xl:text-xl lg:text-xl md:text-xl sm:text-lg font-semibold mb-2">Proven Results</h3>
@@ -127,7 +127,7 @@ export default function Portfolio() {
         </div>
 
         {/* Contact Section - Responsive Flex and Grid */}
-       <div className="flex flex-col lg:flex-row items-start bg-[#141414] p-4 md:p-5 rounded-xl hover:border-white border border-transparent hover:border-opacity-40 transition-all duration-300 w-full gap-4 md:gap-6">
+       <div className="flex flex-wrap flex-col lg:flex-row items-start bg-[#141414] p-4 md:p-5 rounded-xl hover:border-white border border-transparent hover:border-opacity-40 transition-all duration-300 w-full gap-4 md:gap-4">
           {/* Left Section */}
           <div className="flex-1 space-y-2 w-full">
             <div className="flex flex-wrap items-center justify-start gap-2">
@@ -135,7 +135,7 @@ export default function Portfolio() {
               <Button
                 onClick={() => setShowCalendly(true)}
                 variant="tertiary" 
-                className="text-black bg-white text-lg md:text-sm sm:text-sm font-semibold xl:py-2 xl:px-4 lg:py-2 lg:px-4 md:py-2 md:px-4 sm:py-2 sm:px-4"
+                className="text-black bg-white text-sm md:text-sm sm:text-sm font-semibold xl:py-2 xl:px-4 lg:py-2 lg:px-4 md:py-2 md:px-4 sm:py-2 sm:px-4"
               >
                 Book a Call
               </Button>
@@ -146,25 +146,25 @@ export default function Portfolio() {
           </div>
 
           {/* Social Media Icons */}
-          <div className="flex flex-wrap gap-4 justify-center lg:grid lg:grid-cols-2 lg:w-auto">
+          <div className="flex flex-wrap gap-2 justify-center lg:grid lg:grid-cols-2 lg:w-auto">
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=adityamakesyouclick@gmail.com" target="_blank" rel="noopener noreferrer">
-              <Button className="flex flex-col items-center justify-center sm:w-14 sm:h-14 md:h-16 md:w-16 lg:w-17 lg:h-17 xl:w-18 xl:h-18 sm:w-full aspect-square p-1 rounded-xl border-transparent bg-[#212121] text-white text-xs font-medium">
-                <IoIosMail className="xl:h-8 xl:w-8 lg:w-8 lg:h-8 md:h-7 md:w-7 sm:h-5 sm:w-5" />
+              <Button className="flex flex-col items-center justify-center w-12 h-12 sm:w-14 sm:h-14 md:h-16 md:w-16 lg:w-17 lg:h-17 xl:w-18 xl:h-18 sm:w-full aspect-square p-1 rounded-xl border-transparent bg-[#212121] text-white text-xs font-medium">
+                <IoIosMail className="h-5 w-5 xl:h-8 xl:w-8 lg:w-8 lg:h-8 md:h-7 md:w-7 sm:h-5 sm:w-5" />
               </Button>
             </a>
             <a href="https://www.linkedin.com/in/financefreakaditya/" target="_blank" rel="noopener noreferrer">
-              <Button className="flex flex-col items-center justify-center  sm:w-14 sm:h-14 md:h-16 md:w-16 lg:w-17 lg:h-17 xl:w-18 xl:h-18 sm:w-full aspect-square p-1 rounded-xl border-transparent bg-[#212121] text-white text-xs font-medium">
-                <FaLinkedin className="xl:h-8 xl:w-8 lg:w-8 lg:h-8 md:h-7 md:w-7 sm:h-6 sm:w-6" />
+              <Button className="flex flex-col items-center justify-center w-12 h-12 sm:w-14 sm:h-14 md:h-16 md:w-16 lg:w-17 lg:h-17 xl:w-18 xl:h-18 sm:w-full aspect-square p-1 rounded-xl border-transparent bg-[#212121] text-white text-xs font-medium">
+                <FaLinkedin className="h-5 w-5 xl:h-8 xl:w-8 lg:w-8 lg:h-8 md:h-7 md:w-7 sm:h-6 sm:w-6" />
               </Button>
             </a>
-            <a href="https://twitter.com/your-profile" target="_blank" rel="noopener noreferrer">
-              <Button className="flex flex-col items-center justify-center  sm:w-14 sm:h-14 md:h-16 md:w-16 lg:w-17 lg:h-17 xl:w-18 xl:h-18 sm:w-full aspect-square p-1 rounded-xl border-transparent bg-[#212121] text-white text-xs font-medium">
-                <FaXTwitter className="xl:h-8 xl:w-8 lg:w-8 lg:h-8 md:h-7 md:w-7 sm:h-5 sm:w-5" />
+            <a href="https://x.com/financefreakadi" target="_blank" rel="noopener noreferrer">
+              <Button className="flex flex-col items-center justify-center w-12 h-12 sm:w-14 sm:h-14 md:h-16 md:w-16 lg:w-17 lg:h-17 xl:w-18 xl:h-18 sm:w-full aspect-square p-1 rounded-xl border-transparent bg-[#212121] text-white text-xs font-medium">
+                <FaXTwitter className="h-5 w-5 xl:h-8 xl:w-8 lg:w-8 lg:h-8 md:h-7 md:w-7 sm:h-5 sm:w-5" />
               </Button>
             </a>
             <a href="https://www.instagram.com/financefreakaditya/" target="_blank" rel="noopener noreferrer">
-              <Button className="flex flex-col items-center justify-center  sm:w-14 sm:h-14 md:h-16 md:w-16 lg:w-17 lg:h-17 xl:w-18 xl:h-18 sm:w-full aspect-square p-1 rounded-xl border-transparent bg-[#212121] text-white text-xs font-medium">
-                <FaInstagram className="xl:h-8 xl:w-8 lg:w-8 lg:h-8 md:h-7 md:w-7 sm:h-5 sm:w-5" />
+              <Button className="flex flex-col items-center justify-center w-12 h-12 sm:w-14 sm:h-14 md:h-16 md:w-16 lg:w-17 lg:h-17 xl:w-18 xl:h-18 sm:w-full aspect-square p-1 rounded-xl border-transparent bg-[#212121] text-white text-xs font-medium">
+                <FaInstagram className="h-5 w-5 xl:h-8 xl:w-8 lg:w-8 lg:h-8 md:h-7 md:w-7 sm:h-5 sm:w-5" />
               </Button>
             </a>
           </div>

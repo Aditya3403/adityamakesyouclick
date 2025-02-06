@@ -30,7 +30,7 @@ export function TestimonialCarousel({ testimonials }: TestimonialCarouselProps) 
   }
 
   return (
-    <div className="relative w-full h-full flex">
+    <div className="relative w-full h-full flex flex-wrap">
       <div className="bg-[#141414] rounded-xl w-full h-full flex flex-col sm:flex-row">
         <CardContent className="flex flex-col justify-center h-full w-full sm:w-auto">
           {/* Review Text */}
@@ -64,7 +64,7 @@ export function TestimonialCarousel({ testimonials }: TestimonialCarouselProps) 
                 alt={testimonials[currentIndex].client}
                 width={50}
                 height={50}
-                className="rounded-full md:w-12 md:h-12 lg:w-14 lg:h-14 xl:w-16 xl:h-16 sm:w-22 sm:h-22"
+                className="rounded-full w-22 h-22 md:w-12 md:h-12 lg:w-14 lg:h-14 xl:w-16 xl:h-16 sm:w-26 sm:h-26"
               />
             </div>
             <div className="text-left sm:text-left">

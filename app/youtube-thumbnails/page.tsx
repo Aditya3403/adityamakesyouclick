@@ -36,7 +36,7 @@ export default function YouTubeThumbnailsPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-black text-white px-4 sm:px-6 md:px-8 py-8">
+    <div className="flex-wrap min-h-screen bg-black text-white px-4 sm:px-6 md:px-8 py-8">
       {/* Going Back Button */}
       <button
                 onClick={() => router.push('/')} 
@@ -55,7 +55,7 @@ export default function YouTubeThumbnailsPage() {
 
       {/* Page Heading */}
       <div className="text-center mb-12">
-        <h1 className="xl:text-4xl md:text-3xl lg:text-4xl sm:text-xl font-bold mb-2">YouTube Thumbnails</h1>
+        <h1 className="xl:text-4xl md:text-3xl lg:text-4xl sm:text-xl text-xl font-bold mb-2">YouTube Thumbnails</h1>
         <p className="xl:text-xl lg:text-xl md:text-lg text-xs sm:text-base md:text-lg text-gray-400">
           A creative collection of thumbnails designed for diverse purposes.
         </p>
@@ -68,16 +68,16 @@ export default function YouTubeThumbnailsPage() {
           className="mb-12 bg-[#0F0F0F] p-4 sm:p-6 md:p-8 lg:p-10 rounded-2xl"
         >
           {/* Subheading */}
-          <h2 className="text-3xl md:text-3xl lg:text-3xl font-semibold mb-6 text-center">
+          <h2 className="text-xl md:text-3xl lg:text-3xl font-semibold mb-6 text-center">
             {section.title}
           </h2>
 
           {/* Thumbnail Box Layout */}
-          <div className="flex flex-col md:flex-col lg:grid lg:grid-cols-2 gap-5 justify-center items-center mx-auto md:mx-0">
+          <div className="flex flex-wrap flex-col md:flex-col lg:grid lg:grid-cols-2 gap-5 justify-center items-center mx-auto md:mx-0">
             {section.images.map((image, idx) => (
               <div
                 key={idx}
-                className="bg-[#212121] h-auto w-full flex items-center justify-center border border-transparent rounded-lg overflow-hidden"
+                className="bg-[#212121] h-auto w-full flex flex-wrap items-center justify-center border border-transparent rounded-lg overflow-hidden"
               >
                 <Image
                   src={image}

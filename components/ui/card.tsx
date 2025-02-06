@@ -10,7 +10,7 @@ export function Card({ children, className }: CardProps) {
   return (
     <div
       className={classNames(
-        "rounded-xl shadow-md bg-[#141414] border border-transparent hover:border-white hover:border-opacity-40 transition-all duration-300 w-full",
+        "flex-wrap rounded-xl shadow-md bg-[#141414] border border-transparent hover:border-white hover:border-opacity-40 transition-all duration-300 w-full",
         className
       )}
     >
