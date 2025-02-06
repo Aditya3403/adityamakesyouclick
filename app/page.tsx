@@ -69,7 +69,7 @@ export default function Portfolio() {
           </div>
 
           {/* About Section - Full Width on Small Screens */}
-          <div className="flex flex-wrap bg-[#141414] rounded-xl p-4 md:p-4 space-y-2 border border-transparent hover:border-white hover:border-opacity-40 transition-all duration-300 h-full">
+          <div className="flex bg-[#141414] rounded-xl p-4 md:p-4 space-y-2 border border-transparent hover:border-white hover:border-opacity-40 transition-all duration-300 h-full">
             <h5 className="text-lg md:text-lg font-semibold">I&apos;m a CS Engineer with a Passion for Designing YouTube & Instagram Thumbnails</h5>
             <p className="text-zinc-400 text-sm lg:text-sm md:text-sm sm:text-sm">
               I help businesses and content creators adapt to the evolving landscape of AI-driven content strategies. With a deep passion for visual storytelling and a proven track record of delivering high-performing designs, I empower brands to thrive in the digital space.
@@ -146,7 +146,7 @@ export default function Portfolio() {
           </div>
 
           {/* Social Media Icons */}
-          <div className="container flex flex-wrap gap-2 justify-center lg:grid lg:grid-cols-2 lg:w-auto">
+          <div className="flex flex-wrap gap-2 justify-center lg:grid lg:grid-cols-2 lg:w-auto">
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=adityamakesyouclick@gmail.com" target="_blank" rel="noopener noreferrer">
               <Button className="flex flex-col items-center justify-center w-12 h-12 sm:w-14 sm:h-14 md:h-16 md:w-16 lg:w-17 lg:h-17 xl:w-18 xl:h-18 sm:w-full aspect-square p-1 rounded-xl border-transparent bg-[#212121] text-white text-xs font-medium">
                 <IoIosMail className="h-5 w-5 xl:h-8 xl:w-8 lg:w-8 lg:h-8 md:h-7 md:w-7 sm:h-5 sm:w-5" />
