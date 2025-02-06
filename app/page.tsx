@@ -41,7 +41,7 @@ export default function Portfolio() {
     <div className="min-h-screen bg-black text-white p-4 sm:p-6 md:p-8">
       <div className="max-w-7xl mx-auto space-y-6 md:space-y-7">
         {/* Top Section - More Responsive Grid */}
-        <div className="flex-wrap grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-4 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-4 items-start">
           {/* Profile Header and Stats - Full Width on Small Screens */}
           <div className="lg:col-span-2 space-y-4 md:space-y-7">
             <ProfileHeader
@@ -51,7 +51,7 @@ export default function Portfolio() {
               avatarUrl="https://res.cloudinary.com/memoriesshare/image/upload/v1737641935/DP_yl2z6b.png"
             />
 
-          <div className="flex-wrap grid xl:grid-cols-3 lg:grid-cols-3 sm:grid-cols-3 md:grid-cols-3 gap-4 sm:gap-4 md:gap-4 group">
+          <div className="grid xl:grid-cols-3 lg:grid-cols-3 sm:grid-cols-3 md:grid-cols-3 gap-4 sm:gap-4 md:gap-4 group">
             <div className="bg-[#141414] rounded-xl p-3 sm:p-4 md:p-6 text-center border border-transparent hover:border-white hover:border-opacity-40 transition-all duration-300">
               <h3 className="text-2xl sm:text-3xl lg:text-4xl xl:text-4xl font-bold text-white-600">2M+</h3>
               <p className="text-zinc-400 mt-1 sm:mt-2 text-base sm:text-lg lg:text-xl">Views Generated</p>
@@ -104,7 +104,7 @@ export default function Portfolio() {
         {/* Why Work With Me Section - Responsive */}
         <div className="border-[#424242] border-2 border-dashed px-4 md:px-8 py-6 md:py-8 rounded-xl space-y-3 hover:border-white hover:border-opacity-40 transition-all duration-300 w-full">
           <h2 className="text-2xl md:text-3xl font-semibold text-center">Why Work With Me</h2>
-          <div className="container grid flex-wrap xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-4 md:gap-4 text-center">
+          <div className="grid flex-wrap xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-4 md:gap-4 text-center">
             <Card className="bg-[#141414]">
               <CardContent className="md:p-6">
                 <h3 className="text-lg xl:text-xl lg:text-xl md:text-xl sm:text-lg font-semibold mb-2">Proven Results</h3>
@@ -127,7 +127,7 @@ export default function Portfolio() {
         </div>
 
         {/* Contact Section - Responsive Flex and Grid */}
-       <div className="container flex flex-wrap flex-col lg:flex-row items-start bg-[#141414] p-4 md:p-5 rounded-xl hover:border-white border border-transparent hover:border-opacity-40 transition-all duration-300 w-full gap-4 md:gap-4">
+       <div className="flex flex-wrap flex-col lg:flex-row items-start bg-[#141414] p-4 md:p-5 rounded-xl hover:border-white border border-transparent hover:border-opacity-40 transition-all duration-300 w-full gap-4 md:gap-4">
           {/* Left Section */}
           <div className="flex-1 space-y-2 w-full">
             <div className="flex flex-wrap items-center justify-start gap-2">
