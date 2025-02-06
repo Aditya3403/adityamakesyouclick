@@ -37,7 +37,7 @@ export default function InstagramThumbnailsPage() {
     ];
 
     return (
-        <div className="flex-wrap min-h-screen bg-black text-white p-6 sm:p-8 md:p-10">
+        <div className="container flex-wrap min-h-screen bg-black text-white p-6 sm:p-8 md:p-10">
             
             {/* Responsive Back Button */}
             <button

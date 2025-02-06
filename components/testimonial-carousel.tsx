@@ -30,7 +30,7 @@ export function TestimonialCarousel({ testimonials }: TestimonialCarouselProps) 
   }
 
   return (
-    <div className="relative w-full h-full flex flex-wrap">
+    <div className="container relative w-full h-full flex flex-wrap">
       <div className="bg-[#141414] rounded-xl w-full h-full flex flex-col sm:flex-row">
         <CardContent className="flex flex-col justify-center h-full w-full sm:w-auto">
           {/* Review Text */}

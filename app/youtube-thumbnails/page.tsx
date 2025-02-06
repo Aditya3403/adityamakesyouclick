@@ -36,7 +36,7 @@ export default function YouTubeThumbnailsPage() {
   ];
 
   return (
-    <div className="flex-wrap min-h-screen bg-black text-white px-4 sm:px-6 md:px-8 py-8">
+    <div className="container flex-wrap min-h-screen bg-black text-white px-4 sm:px-6 md:px-8 py-8">
       {/* Going Back Button */}
       <button
                 onClick={() => router.push('/')} 

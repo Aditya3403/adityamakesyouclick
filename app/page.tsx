@@ -104,7 +104,7 @@ export default function Portfolio() {
         {/* Why Work With Me Section - Responsive */}
         <div className="border-[#424242] border-2 border-dashed px-4 md:px-8 py-6 md:py-8 rounded-xl space-y-3 hover:border-white hover:border-opacity-40 transition-all duration-300 w-full">
           <h2 className="text-2xl md:text-3xl font-semibold text-center">Why Work With Me</h2>
-          <div className="grid flex-wrap xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-4 md:gap-4 text-center">
+          <div className="container grid flex-wrap xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-4 md:gap-4 text-center">
             <Card className="bg-[#141414]">
               <CardContent className="md:p-6">
                 <h3 className="text-lg xl:text-xl lg:text-xl md:text-xl sm:text-lg font-semibold mb-2">Proven Results</h3>
@@ -127,7 +127,7 @@ export default function Portfolio() {
         </div>
 
         {/* Contact Section - Responsive Flex and Grid */}
-       <div className="flex flex-wrap flex-col lg:flex-row items-start bg-[#141414] p-4 md:p-5 rounded-xl hover:border-white border border-transparent hover:border-opacity-40 transition-all duration-300 w-full gap-4 md:gap-4">
+       <div className="container flex flex-wrap flex-col lg:flex-row items-start bg-[#141414] p-4 md:p-5 rounded-xl hover:border-white border border-transparent hover:border-opacity-40 transition-all duration-300 w-full gap-4 md:gap-4">
           {/* Left Section */}
           <div className="flex-1 space-y-2 w-full">
             <div className="flex flex-wrap items-center justify-start gap-2">
@@ -146,7 +146,7 @@ export default function Portfolio() {
           </div>
 
           {/* Social Media Icons */}
-          <div className="flex flex-wrap gap-2 justify-center lg:grid lg:grid-cols-2 lg:w-auto">
+          <div className="container flex flex-wrap gap-2 justify-center lg:grid lg:grid-cols-2 lg:w-auto">
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=adityamakesyouclick@gmail.com" target="_blank" rel="noopener noreferrer">
               <Button className="flex flex-col items-center justify-center w-12 h-12 sm:w-14 sm:h-14 md:h-16 md:w-16 lg:w-17 lg:h-17 xl:w-18 xl:h-18 sm:w-full aspect-square p-1 rounded-xl border-transparent bg-[#212121] text-white text-xs font-medium">
                 <IoIosMail className="h-5 w-5 xl:h-8 xl:w-8 lg:w-8 lg:h-8 md:h-7 md:w-7 sm:h-5 sm:w-5" />

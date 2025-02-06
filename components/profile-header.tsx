@@ -9,7 +9,7 @@ interface ProfileHeaderProps {
 
 export function ProfileHeader({ name, title, description, avatarUrl }: ProfileHeaderProps) {
   return (
-    <div className="flex items-center gap-4 p-4 sm:p-6 rounded-xl bg-[#141414] w-full">
+    <div className="container flex items-center gap-4 p-4 sm:p-6 rounded-xl bg-[#141414] w-full">
       <Avatar className="xl:w-18 xl:h-18 lg:w-16 lg:h-16 md:w-10 md:h-10 sm:w-10 sm:h-10 rounded-full flex-shrink-0">
         {avatarUrl ? (
           <AvatarImage src={avatarUrl} alt={name} />
