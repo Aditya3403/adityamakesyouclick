@@ -12,7 +12,7 @@ interface ProjectCardProps {
 
 export function ProjectCard({ title, description, imageUrl, link }: ProjectCardProps) {
   return (
-    <Card className="flex flex-wrap bg-[#141414] border border-transparent w-full">
+    <Card className="bg-[#141414] border border-transparent w-full">
       <CardContent className="p-4 sm:p-6 space-y-1">
         <h3 className="text-lg sm:text-xl font-semibold text-white">{title}</h3>
         <p className="text-sm sm:text-sm text-zinc-400">{description}</p>
