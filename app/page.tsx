@@ -41,7 +41,7 @@ export default function Portfolio() {
     <div className="min-h-screen bg-black text-white p-4 sm:p-6 md:p-8">
       <div className="max-w-7xl mx-auto space-y-6 md:space-y-7">
         {/* Top Section - More Responsive Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-4 items-start">
+        <div className="flex-wrap grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-4 items-start">
           {/* Profile Header and Stats - Full Width on Small Screens */}
           <div className="lg:col-span-2 space-y-4 md:space-y-7">
             <ProfileHeader
